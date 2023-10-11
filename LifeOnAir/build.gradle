@@ -22,16 +22,26 @@ repositories {
 	mavenCentral()
 }
 
-dependencies {
-	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
-	implementation 'org.springframework.boot:spring-boot-starter-security'
+dependencies {	
+	// Web
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+	// validation
+	implementation 'org.springframework.boot:spring-boot-starter-validation'
+	// Security
+	//implementation 'org.springframework.boot:spring-boot-starter-security'
+	//testImplementation 'org.springframework.security:spring-security-test'
+	// Lombok
 	compileOnly 'org.projectlombok:lombok'
-	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 	annotationProcessor 'org.projectlombok:lombok'
-	providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
+	// DB
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	// MariaDB Driver
+	implementation 'org.mariadb.jdbc:mariadb-java-client:2.7.3'
+	// Test
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
-	testImplementation 'org.springframework.security:spring-security-test'
+	developmentOnly 'org.springframework.boot:spring-boot-devtools'
+	
+	providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
 }
 
 tasks.named('test') {
