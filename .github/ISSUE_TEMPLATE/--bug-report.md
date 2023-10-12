@@ -1,5 +1,5 @@
 ---
-name: "\U0001F41B Bug Report"
+name: "  Bug Report"
 about: 버그 관련 Issue 템플릿
 title: "[BUG]"
 labels: "\U0001F41B Bug"
