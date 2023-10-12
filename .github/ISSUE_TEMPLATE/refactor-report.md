@@ -1,5 +1,5 @@
 ---
-name: "  Refactor Report"
+name: Refactor Report
 about: 리팩토링 Issue 템플릿
 title: "[REFACTOR]"
 labels: "♻ Refactor"

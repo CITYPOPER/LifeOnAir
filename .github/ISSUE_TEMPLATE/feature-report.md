@@ -1,5 +1,5 @@
 ---
-name: "  Feature Report"
+name: Feature Report
 about: 기능 개발 Issue 템플릿
 title: "[FEAT]"
 labels: "✨ Feature"

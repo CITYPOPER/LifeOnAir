@@ -1,5 +1,5 @@
 ---
-name: "  Setting Report"
+name: Setting Report
 about: 개발 환경 세팅 관련 Issue 템플릿
 title: "[SETTING]"
 labels: "\U0001F6E0️ Setting"
