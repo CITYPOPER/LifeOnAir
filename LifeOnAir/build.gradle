@@ -37,6 +37,8 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	// MariaDB Driver
 	implementation 'org.mariadb.jdbc:mariadb-java-client:2.7.3'
+	// API Docs
+	implementation 'org.springdoc:springdoc-openapi-ui:1.6.15'
 	// Test
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
