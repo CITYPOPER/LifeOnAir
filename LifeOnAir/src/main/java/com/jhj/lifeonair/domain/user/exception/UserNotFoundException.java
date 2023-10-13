@@ -1,4 +1,4 @@
-package com.jhj.lifeonair.domain.user.exception.exception;
+package com.jhj.lifeonair.domain.user.exception;
 
 import com.jhj.lifeonair.global.error.exception.BusinessException;
 import com.jhj.lifeonair.global.error.exception.ErrorCode;

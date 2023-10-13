@@ -1,12 +1,12 @@
-package com.jhj.lifeonair.domain.user.exception.service;
+package com.jhj.lifeonair.domain.user.service;
 
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.jhj.lifeonair.domain.user.dto.UserRegisterRequestDto;
 import com.jhj.lifeonair.domain.user.entity.User;
-import com.jhj.lifeonair.domain.user.exception.exception.UserNotFoundException;
-import com.jhj.lifeonair.domain.user.exception.repository.UserRepository;
+import com.jhj.lifeonair.domain.user.exception.UserNotFoundException;
+import com.jhj.lifeonair.domain.user.repository.UserRepository;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

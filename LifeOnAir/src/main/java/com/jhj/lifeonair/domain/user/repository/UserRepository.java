@@ -1,4 +1,4 @@
-package com.jhj.lifeonair.domain.user.exception.repository;
+package com.jhj.lifeonair.domain.user.repository;
 
 import java.util.Optional;
 
